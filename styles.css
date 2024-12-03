@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  header nav {
+    margin-top: 0.5rem;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #about .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  
+  #about img {
+    width: 150px;
+    height: 150px; /* Ensures a square image */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Prevents distortion */
+  }
+  
+  
+  #about p {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  /* Videos Section */
+  #videos {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  #videos .video-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  #videos .video img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  #videos .video img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  #videos .video p {
+    margin-top: 0.5rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+  }
+  
+  #contact a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  #contact .social-links a {
+    margin: 0 1rem;
+    font-size: 1.2rem;
+  }
+  
+  #contact .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
